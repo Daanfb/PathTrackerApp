@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">PathTrackerApp</string>
+
+    <!-- Bottom Navigation -->
+    <string name="tracking">Tracking</string>
+    <string name="log">Log</string>
+    <string name="content_description_tab_tracking">Go to tracking screen</string>
+    <string name="content_description_tab_log">Go to sessions log screen</string>
+
+    <string name="required_location">Required location</string>
+    <string name="required_location_description">In order to record your route and display accurate data, we need access to your location. Please grant permission to continue.</string>
+    <string name="grant_permission">Grant permission</string>
+
+    <string name="no_gps">No GPS signal. Please activate it.</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="content_description_go_to_my_location">Go to my location</string>
+
+    <!-- Stats -->
+    <string name="distance">Distance</string>
+    <string name="duration">Duration</string>
+    <string name="speed">Speed</string>
+    <string name="steps">Steps</string>
+    <string name="pace">Pace</string>
+
+    <!-- Summary Screen -->
+    <string name="tracking_completed">Tracking completed!</string>
+    <string name="tracking_completed_description">Enjoy your tracking summary. Every steps counts!</string>
+    <string name="save_tracking">Save tracking</string>
+    <string name="add_a_title">Add a title…</string>
+    <string name="content_description_clear_title">Tap to clear</string>
+    <string name="discard_session_question">Discard session?</string>
+    <string name="discard_session_description">If the session is discarded, all recorded data will be lost.</string>
+    <string name="title_needed">Title needed</string>
+    <string name="title_needed_description">Please add a title before saving the session.</string>
+    <string name="discard">Discard</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+
+    <!-- Log Screen -->
+    <string name="sessions">Tracking Sessions</string>
+    <string name="no_sessions">No sessions recorded yet</string>
+    <string name="no_sessions_description">When you record a tracking session, it will appear here</string>
+
+</resources>

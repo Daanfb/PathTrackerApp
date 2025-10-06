@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PathTrackerApp</string>
+
+    <!-- Bottom Navigation -->
+    <string name="tracking">Tracking</string>
+    <string name="log">Historial</string>
+    <string name="content_description_tab_tracking">Ir a la pantalla de tracking</string>
+    <string name="content_description_tab_log">Ir al historial de sesiones</string>
+
+    <string name="required_location">Ubicación necesaria</string>
+    <string name="required_location_description">Para poder registrar tu recorrido y mostrar datos precisos, necesitamos acceder a tu ubicación. Otorga el permiso para continuar.</string>
+    <string name="grant_permission">Conceder permiso</string>
+
+    <string name="no_gps">Sin señal GPS. Por favor, actívelo.</string>
+
+    <string name="start">Iniciar</string>
+    <string name="stop">Detener</string>
+    <string name="content_description_go_to_my_location">Ir a mi localización</string>
+
+    <!-- Stats -->
+    <string name="distance">Distancia</string>
+    <string name="duration">Duración</string>
+    <string name="speed">Velocidad</string>
+    <string name="steps">Pasos</string>
+    <string name="pace">Ritmo</string>
+
+    <!-- Summary Screen -->
+    <string name="tracking_completed">¡Tracking completado!</string>
+    <string name="tracking_completed_description">Disfruta tu resumen del tracking. ¡Cada paso cuenta!</string>
+    <string name="save_tracking">Guardar tracking</string>
+    <string name="discard">Descartar</string>
+    <string name="add_a_title">Añade un título…</string>
+    <string name="content_description_clear_title">Pulsa para borrar</string>
+    <string name="discard_session_question">¿Descartar sesión?</string>
+    <string name="discard_session_description">Si descartas la sesión, se perderán todos los datos registrados.</string>
+    <string name="title_needed">Título necesario</string>
+    <string name="title_needed_description">Por favor, añade un título antes de guardar la sesión.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+
+    <!-- Log Screen -->
+    <string name="sessions">Sesiones registradas</string>
+    <string name="no_sessions">No tienes sesiones guardadas</string>
+    <string name="no_sessions_description">Cuando registres una sesión de tracking, aparecerá aquí</string>
+
+</resources>
