@@ -101,7 +101,7 @@ La app está estructurada en cuatro capas principales: **Data**, **Domain**, **U
 2. Abre el proyecto en **Android Studio**.
 3. Configura tu clave de la API de **Google Maps**:
 
-* Obtén una API key en la [Google Cloud Console](https://console.cloud.google.com/google/maps-apis/overview).
+* Obtén una API key en [Google Cloud Console](https://console.cloud.google.com/google/maps-apis/overview).
 * Añádela en el archivo `local.properties`:
   ```properties
   MAPS_API_KEY=tu_api_key_aquí

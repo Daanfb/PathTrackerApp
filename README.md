@@ -105,7 +105,7 @@ The app is structured into four main layers: **Data**, **Domain**, **UI** and **
 2. Open the project in **Android Studio**.
 3. Set up your **Google Maps API key**:
 
-* Get an API key from the [Google Cloud Console](https://console.cloud.google.com/google/maps-apis/overview).
+* Get an API key from [Google Cloud Console](https://console.cloud.google.com/google/maps-apis/overview).
 * Add it to your `local.properties` file:
   ```properties
   MAPS_API_KEY=your_api_key_here
