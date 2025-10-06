@@ -108,7 +108,7 @@ The app is structured into four main layers: **Data**, **Domain**, **UI** and **
 * Get an API key from the [Google Cloud Console](https://console.cloud.google.com/google/maps-apis/overview).
 * Add it to your `local.properties` file:
   ```properties
-  MAPS_API_KEY="tu_api_key_aquí"
+  MAPS_API_KEY=your_api_key_here
   ```
 
 4. **Sync the project** and run it on an Android device or emulator.
