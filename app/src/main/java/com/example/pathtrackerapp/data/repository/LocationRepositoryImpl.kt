@@ -18,7 +18,12 @@ class LocationRepositoryImpl @Inject constructor(
 
     private val _isLocationActivated = MutableStateFlow(false)
 
-    override fun getLocationSettingsStatus(): Flow<Boolean> {
+    override fun getLocationSettingsStatus(checkInitialStatus: Boolean): Flow<Boolean> {
+
+        if(checkInitialStatus) {
+            checkInitialLocationStatus()
+        }
+
         return _isLocationActivated.asStateFlow()
     }
 

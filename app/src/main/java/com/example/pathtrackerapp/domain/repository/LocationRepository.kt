@@ -9,7 +9,7 @@ interface LocationRepository {
      *
      * @return A Flow that emits true if location settings are satisfied, false otherwise.
      */
-    fun getLocationSettingsStatus(): Flow<Boolean>
+    fun getLocationSettingsStatus(checkInitialStatus: Boolean = false): Flow<Boolean>
 
     /**
      * Checks the initial status of location settings.
