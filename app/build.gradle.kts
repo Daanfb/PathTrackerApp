@@ -8,7 +8,6 @@ plugins {
     alias(libs.plugins.google.ksp)
     alias(libs.plugins.google.hilt)
     alias(libs.plugins.kotlinx.serialization)
-    alias(libs.plugins.kotlin.parcelize)
 }
 
 val localProps = Properties()
