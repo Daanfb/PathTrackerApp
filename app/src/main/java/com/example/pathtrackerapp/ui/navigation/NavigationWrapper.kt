@@ -3,7 +3,6 @@ package com.example.pathtrackerapp.ui.navigation
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
-import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
@@ -42,10 +41,6 @@ fun NavigationWrapper(navController: NavHostController) {
         }
     ) { paddingValues ->
 
-//        val commonModifier = Modifier
-//            .padding(bottom = paddingValues.calculateBottomPadding())
-//            .consumeWindowInsets(paddingValues)
-
         NavHost(
             navController = navController,
             startDestination = MainDestinations.Tracking,
@@ -55,7 +50,6 @@ fun NavigationWrapper(navController: NavHostController) {
                 TrackingScreen(
                     modifier = Modifier
                         .padding(bottom = paddingValues.calculateBottomPadding())
-//                        .consumeWindowInsets(paddingValues)
                 )
             }
 
